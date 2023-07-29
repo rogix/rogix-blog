@@ -1,0 +1,12 @@
+<section class="hero">
+{{#if @site.icon}}
+    <div class="cover-icon">
+        <img class="cover-icon-image" src="{{@site.icon}}" alt="{{@site.title}}">
+    </div>
+{{/if}}
+
+  <div class="hero__inner">
+    <h1 class="hero__title">{{@site.title}}</h1>
+    <p class="hero__description">{{@site.description}}</p>
+  </div>
+</section>

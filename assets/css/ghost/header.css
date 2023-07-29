@@ -5,7 +5,9 @@
     padding: 3vmin 4vmin;
     font-size: 1.6rem;
     line-height: 1.3em;
-    background: inherit;
+    background: transparent;
+    position: relative;
+    z-index: 100;
 }
 
 .gh-head a {

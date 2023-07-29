@@ -1,8 +1,8 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A starter theme for Ghost theme development",
+    "name": "rogix",
+    "description": "A blog",
     "demo": "https://starter.ghost.io",
-    "version": "2.0.1",
+    "version": "1.0.0",
     "engines": {
         "ghost": ">=5.0.0"
     },
@@ -18,7 +18,7 @@
         "pretest": "npm run build"
     },
     "author": {
-        "name": "Ghost Foundation",
+        "name": "Rogerio Pereira",
         "email": "hello@ghost.org",
         "url": "https://ghost.org"
     },

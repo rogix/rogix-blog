@@ -2,7 +2,12 @@
 <div class="gh-page">
     <div class="gh-container">
 
+        {{> "hero" }} {{!-- partials/hero.hbs --}}
+
         <div class="gh-postfeed">
+
+
+        <h2>Lastest Posts</h2>
         {{#foreach posts}}
 
             {{> "card" page=../pagination.page }} {{!-- partials/card.hbs --}}
