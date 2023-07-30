@@ -10,6 +10,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 
 /* Base components */
 @import "vars.css";
+@import "fonts.css";
 @import "components/global.css";
 @import "components/forms.css";
 @import "components/buttons.css";
@@ -64,6 +65,18 @@ html,
     align-items: start
 }
 
+.section-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-block-end: -40px;
+    color: var(--ghost-accent-color);
+}
+
+.gh-card-title {
+    font-size: 24px;
+    margin-block-end: 0;
+}
+
 .gh-container {
     width: 100%;
     max-width: 1200px;
@@ -112,8 +125,7 @@ html,
 
 .gh-card-meta {
     display: block;
-    margin: 0 0 1rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.2em;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -136,6 +148,28 @@ html,
     font-weight: 500;
     box-shadow: 0 -1px 0 0 inset currentColor;
     opacity: 0.75;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 10px;
+}
+
+.card__info .tag {
+    margin-inline-end: 10px;
+    padding: 4px 16px;
+    border-radius: 30px;
+    border: .1px solid #ffffff52;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card__info .tag a {
+    color: #fff;
+    text-decoration: none;
 }
 
 
@@ -265,6 +299,15 @@ html,
     margin-block-start: 40px;
     position: relative;
     z-index: 1;
+}
+
+.hero__title {
+    font-size: 3rem;
+}
+
+.hero__description {
+    font-size: 2.5rem;
+    margin-block-start: 14px;
 }
 
 .gh-hero-bg {

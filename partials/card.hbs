@@ -50,7 +50,17 @@ Re-usable card for linking to posts
         <div class="gh-card-content">
             <h2 class="gh-card-title">{{title}}</h2>
             <p>{{excerpt}}</p>
-            <span class="gh-card-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> <span class="bull">&bull;</span> {{reading_time}}</span>
         </div>
     </a>
+
+            <div class="card__info">
+              {{#primary_tag}}
+              <div class="tag">
+                <a href="{{url}}">{{name}}</a>
+              </div>
+              {{/primary_tag}}
+              <span class="gh-card-meta">
+                <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> <span class="bull"></span>
+              </span>
+            </div>
 </article>
