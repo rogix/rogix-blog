@@ -51,7 +51,9 @@ html,
 }
 
 .gh-article {
+    color: #fff;
     padding: 8vmin 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 .gh-postfeed {
@@ -206,8 +208,18 @@ html,
 /* ---------------------------------------------------------- */
 
 .gh-header {
-    padding: 0 0 8vmin 0;
+    padding: 2.5rem 3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
     text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #283139;
+    margin-block-end: 40px;
+    border-radius: 10px;
 }
 
 .gh-post-meta {
@@ -225,13 +237,20 @@ html,
 
 .gh-feature-image {
     grid-column: wide-start / wide-end;
-    width: 100%;
+    width: 60%;
     margin: 8vmin 0 0;
 }
 
 .gh-feature-image img {
     margin-inline: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
     width: 100%;
+    border-radius: 10px;
+}
+
+figcaption {
+    color: #fff;
 }
 
 .gh-post-footer {

@@ -40,10 +40,10 @@
             <div class="gh-head-actions-list">
                 {{search}}
                 <a href="https://github.com/rogix" target="_blank" rel="noopener">
-                    <img src="assets/img/github.svg" alt="github" width="24" />
+                    <img src={{asset "assets/img/github.svg"}} alt="github" width="24" />
                 </a>
                 <a href="https://www.linkedin.com/in/rogmxp/" target="_blank" rel="noopener">
-                    <img src="assets/img/linkedin.png" alt="github" width="23" />
+                    <img src={{asset "assets/img/linkedin.png"}} alt="linkedin" width="23" />
                 </a>
             </div>
         </div>
@@ -51,7 +51,7 @@
 </header>
 
 <main class="gh-main">
-<img src="./assets/hero-bg.svg" alt="" class="gh-hero-bg" />
+<img src={{asset "./assets/hero-bg.svg"}} alt="" class="gh-hero-bg" />
 
     {{{body}}}
     {{!-- All content gets inserted here, index.hbs, post.hbs, etc --}}
