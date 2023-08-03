@@ -207,6 +207,10 @@ html,
 /* Post
 /* ---------------------------------------------------------- */
 
+.title-wrapper {
+    width: 720px;
+}
+
 .gh-header {
     padding: 2.5rem 3rem 4rem;
     display: flex;
@@ -214,12 +218,12 @@ html,
     align-items: center;
     gap: 30px;
     text-align: center;
-    max-width: 720px;
     margin: 0 auto;
     text-align: left;
-    background-color: #283139;
     margin-block-end: 40px;
     border-radius: 10px;
+    justify-content: center;
+    border-bottom: .01px solid #ffffff1b;
 }
 
 .gh-post-meta {
