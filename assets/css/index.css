@@ -64,7 +64,8 @@ html,
     margin: 0 auto;
     gap: 80px 4vmin;
     align-content: flex-end;
-    align-items: start
+    align-items: start;
+    margin-top: 80px;
 }
 
 .section-title {
